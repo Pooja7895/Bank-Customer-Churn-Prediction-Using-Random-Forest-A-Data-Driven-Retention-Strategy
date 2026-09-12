@@ -1,8 +1,9 @@
 # Bank-Customer-Churn-Prediction-Using-Random-Forest-A-Data-Driven-Retention-Strategy
-A Data-Driven Customer Retention Strategy
+**A Data-Driven Customer Retention Strategy**
 
+📌 **Project Overview**
 
-📌 Project Overview
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Customer churn is a major challenge for banking and financial institutions. When customers close their bank accounts or stop using banking services, it can lead to a loss of revenue and increased customer acquisition costs.
 
