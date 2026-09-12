@@ -1,7 +1,7 @@
 # Bank-Customer-Churn-Prediction-Using-Random-Forest-A-Data-Driven-Retention-Strategy
 **A Data-Driven Customer Retention Strategy**
  
-📌 **Project Overview** 
+📌 ### **Project Overview** <!-- Medium -->
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
