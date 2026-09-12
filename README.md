@@ -15,7 +15,7 @@ By analyzing customer demographic, financial, and banking-related information, t
 
 🎯 **Problem Statement**
 
-Banks may lose valuable customers when they close their accounts or stop using banking services.
++ - Banks may lose valuable customers when they close their accounts or stop using banking services.
 
 Many banks identify customer churn only after the customer has already left. At that point, it becomes difficult to take corrective action.
 
