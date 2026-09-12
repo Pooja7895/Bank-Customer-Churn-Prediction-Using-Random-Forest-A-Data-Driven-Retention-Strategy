@@ -21,17 +21,17 @@ Many banks identify customer churn only after the customer has already left. At 
 
 The goal of this project is to:
 
-*Predict whether a customer is likely to leave the bank.
+* Predict whether a customer is likely to leave the bank.
 
-*Identify key factors influencing customer churn.
+* Identify key factors influencing customer churn.
 
-*Analyze customer demographic, financial, and account-related information.
+* Analyze customer demographic, financial, and account-related information.
 
-*Compare different machine learning classification models.
+* Compare different machine learning classification models.
 
-*Improve Random Forest performance through hyperparameter tuning.
+* Improve Random Forest performance through hyperparameter tuning.
 
-*Support banks in developing targeted customer retention strategies.
+* Support banks in developing targeted customer retention strategies.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -43,21 +43,21 @@ It contains customer information from a bank and is used to predict whether a cu
 
 **Dataset Overview**
 
-*Each row represents one bank customer.
+* Each row represents one bank customer.
 
-*Each column represents demographic, financial, or banking-related information.
+* Each column represents demographic, financial, or banking-related information.
 
-*The dataset contains both numerical and categorical features.
+* The dataset contains both numerical and categorical features.
 
-*The target variable is Exited.
+* The target variable is Exited.
 
-*This is a binary classification problem.
+* This is a binary classification problem.
 
 **Dataset Details**
 
-*Dataset Name	Bank Customer Churn Modelling Dataset
+* Dataset Name	Bank Customer Churn Modelling Dataset
 
-*File Name	Churn_Modelling.csv
+* File Name	Churn_Modelling.csv
 
 * Number of Records	10,000
 
@@ -161,7 +161,7 @@ It contains customer information from a bank and is used to predict whether a cu
 
 **17** Hyperparameter Tuning
 
-*18** Use GridSearchCV to improve Random Forest performance.
+**18** Use GridSearchCV to improve Random Forest performance.
 
 **19** Model Saving and Prediction
 
