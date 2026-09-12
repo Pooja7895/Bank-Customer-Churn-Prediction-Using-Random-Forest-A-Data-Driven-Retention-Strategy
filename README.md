@@ -1,13 +1,18 @@
 # Bank-Customer-Churn-Prediction-Using-Random-Forest-A-Data-Driven-Retention-Strategy
 A Data-Driven Customer Retention Strategy
+
 📌 Project Overview
+
 Customer churn is a major challenge for banking and financial institutions. When customers close their bank accounts or stop using banking services, it can lead to a loss of revenue and increased customer acquisition costs.
+
 This project focuses on predicting whether a bank customer is likely to leave the bank using Machine Learning Classification Models, with Random Forest as the primary model.
 By analyzing customer demographic, financial, and banking-related information, this project helps identify customers at risk of churn and supports proactive customer retention strategies.
 
 🎯 Problem Statement
+
 Banks may lose valuable customers when they close their accounts or stop using banking services.
 Many banks identify customer churn only after the customer has already left. At that point, it becomes difficult to take corrective action.
+
 The goal of this project is to:
 Predict whether a customer is likely to leave the bank.
 Identify key factors influencing customer churn.
