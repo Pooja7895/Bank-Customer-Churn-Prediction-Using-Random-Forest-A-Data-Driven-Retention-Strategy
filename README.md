@@ -10,6 +10,7 @@ This project focuses on predicting whether a bank customer is likely to leave th
 
 By analyzing customer demographic, financial, and banking-related information, this project helps identify customers at risk of churn and supports proactive customer retention strategies.
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 🎯 Problem Statement
 
@@ -30,6 +31,7 @@ Improve Random Forest performance through hyperparameter tuning.
 
 Support banks in developing targeted customer retention strategies.
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 📊 Dataset Description
 
@@ -74,6 +76,7 @@ Exited = 1 → Customer has exited the bank.
 
 Exited = 0 → Customer has remained with the bank.
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 🛠️ Technologies & Tools Used
 
@@ -90,6 +93,7 @@ joblib – model and scaler serialization
 
 Development Environment: Jupyter Notebook
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 🔄 Project Workflow
 
@@ -170,6 +174,7 @@ Save the trained model and scaler using Joblib.
 
 Predict churn probability for a new customer.
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 🤖 Why Random Forest?
 
@@ -186,6 +191,3 @@ Reduces overfitting through ensemble learning.
 Provides feature importance insights.
 
 Performs well for classification problems involving customer behaviour.
-
-
-
