@@ -86,12 +86,12 @@ It contains customer information from a bank and is used to predict whether a cu
 
   ◦ pandas, numpy – data processing
  
- ○  matplotlib, seaborn, plotly – data visualization
+ ◦  matplotlib, seaborn, plotly – data visualization
 
- ○  scikit-learn – model building and evaluation
+ ◦  scikit-learn – model building and evaluation
 
 
- ○  joblib – model and scaler serialization
+ ◦  joblib – model and scaler serialization
 
 * Development Environment: Jupyter Notebook
 
@@ -111,19 +111,19 @@ It contains customer information from a bank and is used to predict whether a cu
 
 **6.** Exploratory Data Analysis
 
-  ○  Numerical feature distribution.
+  ◦ Numerical feature distribution.
 
-  ○  Categorical feature analysis.
+  ◦  Categorical feature analysis.
 
-  ○  Correlation analysis.
+  ◦  Correlation analysis.
 
-  ○  Customer churn distribution.
+  ◦  Customer churn distribution.
 
- ○  Churn analysis by geography.
+ ◦  Churn analysis by geography.
 
- ○  Churn analysis by age.
+ ◦  Churn analysis by age.
 
- ○  Churn analysis by credit score.
+ ◦  Churn analysis by credit score.
 
 **7.** Data Preprocessing
 
@@ -145,21 +145,21 @@ It contains customer information from a bank and is used to predict whether a cu
 
 **16** Model Building
 
- ○  Logistic Regression.
+ ◦  Logistic Regression.
 
- ○  Model Evaluation
+ ◦  Model Evaluation
 
- ○  Accuracy.
+ ◦  Accuracy.
 
- ○  Precision.
+ ◦  Precision.
 
- ○  Recall.
+ ◦  Recall.
 
- ○  F1-Score.
+ ◦  F1-Score.
 
- ○  Classification Report.
+ ◦  Classification Report.
 
- ○  Confusion Matrix.
+ ◦  Confusion Matrix.
 
 
 **17** Hyperparameter Tuning
