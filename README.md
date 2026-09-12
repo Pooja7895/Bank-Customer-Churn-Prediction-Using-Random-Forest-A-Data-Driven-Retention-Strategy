@@ -1,19 +1,19 @@
 # Bank-Customer-Churn-Prediction-Using-Random-Forest-A-Data-Driven-Retention-Strategy
 **A Data-Driven Customer Retention Strategy**
  
-📌 **Project Overview**
+📌 **Project Overview** 
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Customer churn is a major challenge for banking and financial institutions. When customers close their bank accounts or stop using banking services, it can lead to a loss of revenue and increased customer acquisition costs.
+Customer churn is a major challenge for **banking and financial institutions**. When customers close their bank accounts or stop using banking services, it can lead to a loss of revenue and increased customer acquisition costs.
 
-This project focuses on predicting whether a bank customer is likely to leave the bank using Machine Learning Classification Models, with Random Forest as the primary model.
+This project focuses on predicting whether a bank customer is likely to leave the bank using **Machine Learning Classification Models, with Random Forest** as the primary model.
 
 By analyzing customer demographic, financial, and banking-related information, this project helps identify customers at risk of churn and supports proactive customer retention strategies.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-🎯 Problem Statement
+🎯 **Problem Statement**
 
 Banks may lose valuable customers when they close their accounts or stop using banking services.
 
@@ -21,174 +21,168 @@ Many banks identify customer churn only after the customer has already left. At 
 
 The goal of this project is to:
 
-Predict whether a customer is likely to leave the bank.
-Identify key factors influencing customer churn.
+*Predict whether a customer is likely to leave the bank.
 
-Analyze customer demographic, financial, and account-related information.
+*Identify key factors influencing customer churn.
 
-Compare different machine learning classification models.
+*Analyze customer demographic, financial, and account-related information.
 
-Improve Random Forest performance through hyperparameter tuning.
+*Compare different machine learning classification models.
 
-Support banks in developing targeted customer retention strategies.
+*Improve Random Forest performance through hyperparameter tuning.
+
+*Support banks in developing targeted customer retention strategies.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-📊 Dataset Description
+📊 **Dataset Description**
 
 The dataset used for this project is the Bank Customer Churn Modelling Dataset.
 
 It contains customer information from a bank and is used to predict whether a customer will leave the bank.
 
-Dataset Overview 
+**Dataset Overview**
 
-Each row represents one bank customer.
+*Each row represents one bank customer.
 
-Each column represents demographic, financial, or banking-related information.
+*Each column represents demographic, financial, or banking-related information.
 
-The dataset contains both numerical and categorical features.
+*The dataset contains both numerical and categorical features.
 
-The target variable is Exited.
+*The target variable is Exited.
 
-This is a binary classification problem.
+*This is a binary classification problem.
 
-Dataset Details
+**Dataset Details**
 
-Property	Description
+*Dataset Name	Bank Customer Churn Modelling Dataset
 
-Dataset Name	Bank Customer Churn Modelling Dataset
+*File Name	Churn_Modelling.csv
 
-File Name	Churn_Modelling.csv
+* Number of Records	10,000
 
-Number of Records	10,000
+* Number of Columns	14
 
-Number of Columns	14
+* Target Variable	Exited
 
-Target Variable	Exited
+* Problem Type	Binary Classification
 
-Problem Type	Binary Classification
-
-Business Domain	Banking and Customer Retention
+* Business Domain	Banking and Customer Retention
 
 
-Target Variable
+**Target Variable**
 
-Exited = 1 → Customer has exited the bank.
+* Exited = 1 → Customer has exited the bank.
 
-Exited = 0 → Customer has remained with the bank.
+* Exited = 0 → Customer has remained with the bank.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 🛠️ Technologies & Tools Used
 
-Programming Language: Python
-Libraries:
+* Programming Language: Python
+* Libraries:
 
-pandas, numpy – data processing
+- pandas, numpy – data processing
 
-matplotlib, seaborn, plotly – data visualization
+- matplotlib, seaborn, plotly – data visualization
 
-scikit-learn – model building and evaluation
+- scikit-learn – model building and evaluation
 
-joblib – model and scaler serialization
+- joblib – model and scaler serialization
 
-Development Environment: Jupyter Notebook
+* Development Environment: Jupyter Notebook
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 🔄 Project Workflow
 
-Data Loading and Exploration
+**1.** Data Loading and Exploration
 
-Import the dataset.
+**2.** Import the dataset.
 
-Understand dataset shape and data types.
+**3.** Understand dataset shape and data types.
 
-Check for missing values.
+**4.** Check for missing values.
 
-Inspect numerical and categorical columns.
+**5.** Inspect numerical and categorical columns.
 
-Exploratory Data Analysis
+**6.** Exploratory Data Analysis
 
-Numerical feature distribution.
+ - Numerical feature distribution.
 
-Categorical feature analysis.
+ - Categorical feature analysis.
 
-Correlation analysis.
+ - Correlation analysis.
 
-Customer churn distribution.
+ - Customer churn distribution.
 
-Churn analysis by geography.
+- Churn analysis by geography.
 
-Churn analysis by age.
+- Churn analysis by age.
 
-Churn analysis by credit score.
+- Churn analysis by credit score.
 
-Data Preprocessing
+**7.** Data Preprocessing
 
-Remove unnecessary identifier columns.
+**8** Remove unnecessary identifier columns.
 
-Separate independent and dependent variables.
+**9.** Separate independent and dependent variables.
 
-Encode categorical features.
+**10** Encode categorical features.
 
-Check missing values after encoding.
+**11** Check missing values after encoding.
 
-Train-Test Split
+**12** Train-Test Split
 
-Split the dataset into training and testing data.
+**13** Split the dataset into training and testing data.
 
-Use stratified sampling to maintain class distribution.
+**14** Use stratified sampling to maintain class distribution.
 
-Feature Scaling
+**15** Feature Scaling
 
-Apply StandardScaler for the Logistic Regression model.
+**16** Model Building
 
-Model Building
+- Logistic Regression.
 
-Logistic Regression.
+- Model Evaluation
+- Accuracy.
 
-Model Evaluation
-Accuracy.
+- Precision.
 
-Precision.
+- Recall.
 
-Recall.
+- F1-Score.
 
-F1-Score.
+- Classification Report.
 
-Classification Report.
+- Confusion Matrix.
 
-Confusion Matrix.
 
-Identify important features contributing to customer churn prediction.
+**17** Hyperparameter Tuning
 
-Hyperparameter Tuning
+*18** Use GridSearchCV to improve Random Forest performance.
 
-Use GridSearchCV to improve Random Forest performance.
+**19** Model Saving and Prediction
 
-Final Model Selection
+**20** Save the trained model and scaler using Joblib.
 
-Model Saving and Prediction
-
-Save the trained model and scaler using Joblib.
-
-Predict churn probability for a new customer.
+**21** Predict churn probability for a new customer.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 🤖 Why Random Forest?
 
-Random Forest was selected as the primary model because it:
+* Random Forest was selected as the primary model because it:
 
-Handles non-linear relationships effectively.
+* Handles non-linear relationships effectively.
 
-Works well with different numerical and categorical features after preprocessing.
+* Works well with different numerical and categorical features after preprocessing.
 
-Combines multiple decision trees to improve prediction performance.
+* Combines multiple decision trees to improve prediction performance.
 
-Reduces overfitting through ensemble learning.
+* Reduces overfitting through ensemble learning.
 
-Provides feature importance insights.
+* Provides feature importance insights.
 
-Performs well for classification problems involving customer behaviour.
+* Performs well for classification problems involving customer behaviour.
