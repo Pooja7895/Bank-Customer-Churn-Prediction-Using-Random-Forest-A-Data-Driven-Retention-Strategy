@@ -82,7 +82,7 @@ It contains customer information from a bank and is used to predict whether a cu
 
 * Programming Language: Python
   
- *Libraries:
+ * Libraries:
 
   ○ pandas, numpy – data processing
  
@@ -174,7 +174,7 @@ It contains customer information from a bank and is used to predict whether a cu
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-🤖 ## Why Random Forest?
+🤖 ## Why Random Forest? ##
 
 * Random Forest was selected as the primary model because it:
 
