@@ -1,7 +1,7 @@
 # Bank-Customer-Churn-Prediction-Using-Random-Forest-A-Data-Driven-Retention-Strategy
 **A Data-Driven Customer Retention Strategy**
  
-📌 **Project Overview** 
+📌 * **Project Overview** 
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -78,10 +78,10 @@ It contains customer information from a bank and is used to predict whether a cu
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-🛠️ Technologies & Tools Used
+🛠️ **Technologies & Tools Used**
 
 * Programming Language: Python
-* Libraries:
+ Libraries:
 
 - pandas, numpy – data processing
 
@@ -95,7 +95,7 @@ It contains customer information from a bank and is used to predict whether a cu
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-🔄 Project Workflow
+🔄 **Project Workflow**
 
 **1.** Data Loading and Exploration
 
