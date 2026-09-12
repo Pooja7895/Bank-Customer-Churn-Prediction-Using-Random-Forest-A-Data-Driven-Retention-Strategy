@@ -84,7 +84,7 @@ It contains customer information from a bank and is used to predict whether a cu
   
  * Libraries:
 
-  + - pandas, numpy – data processing
+  ◦ pandas, numpy – data processing
  
  ○  matplotlib, seaborn, plotly – data visualization
 
